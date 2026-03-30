@@ -28,7 +28,7 @@ layers:
   - V
   - B
   - Gui+0
-  - LANGUAGE 3
+  - ''
   - N
   - M
   - ','
@@ -41,18 +41,18 @@ layers:
   - {t: SPACE, h: '5'}
   - Ctl+SPACE
   - {t: BACKSPACE, h: '1'}
-  - ENTER
+  - {t: Ctl+ENTER, h: '2'}
   - ''
   '1':
   - ''
   - ''
+  - /
   - ''
   - ''
   - ''
+  - '!'
+  - '?'
   - ''
-  - ''
-  - ''
-  - _
   - ''
   - '1'
   - '2'
@@ -103,8 +103,8 @@ layers:
   - ''''
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - '&mkp MB3'
-  - '&mkp MB1'
+  - '{'
+  - '}'
   - '&mkp MB2'
   - '='
   - +
@@ -123,11 +123,11 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  - LSHFT
+  - Ctl+K
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {type: held}
   - {t: ▽, type: trans}
   '3':
   - {t: ▽, type: trans}
