@@ -35,14 +35,14 @@ layers:
   - .
   - /
   - ''
-  - LEFT WIN
-  - F16
+  - ''
+  - ''
   - {t: ESCAPE, h: LEFT SHIFT}
   - {t: SPACE, h: '5'}
   - Ctl+SPACE
   - ENTER
   - BACKSPACE
-  - LEFT ALT
+  - ''
   '1':
   - '1'
   - '2'
