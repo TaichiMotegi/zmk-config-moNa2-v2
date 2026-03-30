@@ -27,7 +27,7 @@ layers:
   - C
   - V
   - B
-  - F14
+  - Gui+0
   - F15
   - N
   - M
@@ -232,10 +232,10 @@ layers:
   - '&mkp MB1'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - '&mkp MB1'
-  - '&mkp MB2'
-  - '&mkp MB3'
+  - LEFT ARROW
+  - DOWN ARROW
+  - UP ARROW
+  - RIGHT ARROW
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -256,7 +256,7 @@ layers:
   - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - RCTRL
   - {t: ▽, type: trans}
   '6':
   - {t: ▽, type: trans}
