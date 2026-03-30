@@ -221,12 +221,12 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  - Gui+LEFT ARROW
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  - Gui+RIGHT ARROW
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - LEFT SHIFT
   - '&mkp MB3'
   - '&mkp MB2'
   - '&mkp MB1'
