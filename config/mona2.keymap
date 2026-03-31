@@ -78,7 +78,7 @@
             bindings = <
 &kp Q  &kp W  &kp E  &kp R                  &kp T                                             &kp Y        &kp U                &mt RIGHT_ALT I  &kp O    &kp P
 &kp A  &kp S  &kp D  &lt 3 F                &kp G                            &lt 4 TAB        &kp H        &mt RIGHT_COMMAND J  &mt RCTRL K      &kp L    &kp MINUS
-&kp Z  &kp X  &kp C  &kp V                  &kp B        &kp RG(NUMBER_0)    &none            &kp N        &kp M                &kp COMMA        &kp DOT  &kp SLASH
+&kp Z  &kp X  &kp C  &kp V                  &kp B        &kp RG(NUMBER_0)    &none            &kp N        &kp M                &kp COMMA        &kp DOT  &kp TILDE
 &none  &none  &none  &mt LEFT_SHIFT ESCAPE  &lt 5 SPACE  &kp LC(SPACE)       &lt 1 BACKSPACE  &lt 2 ENTER                                                 &none
             >;
 
@@ -87,7 +87,7 @@
 
         layer_1 {
             bindings = <
-&none         &none         &kp SLASH     &none         &none                           &none         &kp EXCLAMATION  &kp QUESTION  &none         &none
+&none         &kp PERCENT   &kp SLASH     &kp PLUS      &kp ASTERISK                    &none         &kp EXCLAMATION  &kp QUESTION  &none         &none
 &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp NUMBER_5            &trans  &kp NUMBER_6  &kp NUMBER_7     &kp NUMBER_8  &kp NUMBER_9  &kp NUMBER_0
 &trans        &trans        &trans        &trans        &trans        &trans    &trans  &trans        &trans           &trans        &trans        &none
 &trans        &trans        &trans        &trans        &trans        &trans    &trans  &trans                                                     &trans
@@ -98,10 +98,10 @@
 
         layer_2 {
             bindings = <
-&kp EXCLAMATION  &kp AT_SIGN  &kp POUND          &kp DOLLAR  &kp PERCENT                      &kp CARET       &kp AMPERSAND    &kp ASTERISK  &kp MINUS  &kp UNDERSCORE
-&kp GRAVE        &kp TILDE    &kp DOUBLE_QUOTES  &kp SQT     &trans                  &trans   &kp LEFT_BRACE  &kp RIGHT_BRACE  &mkp MB2      &kp EQUAL  &kp PLUS
-&kp F1           &kp F2       &kp F3             &kp F4      &kp F5       &kp F11    &kp F12  &kp F6          &kp F7           &kp F8        &kp F9     &kp F10
-&trans           &trans       &trans             &kp LSHFT   &kp RC(K)    &trans     &trans   &trans                                                    &trans
+&none       &none          &kp NON_US_BACKSLASH  &none      &none                         &kp GRAVE        &kp SINGLE_QUOTE       &kp DOUBLE_QUOTES  &kp UNDERSCORE    &none
+&kp DOLLAR  &kp AMPERSAND  &kp AT_SIGN           &kp HASH   &kp CARET             &trans  &kp LEFT_BRACE   &kp LEFT_PARENTHESIS   &kp LEFT_BRACKET   &kp LESS_THAN     &kp COLON
+&kp F1      &kp F2         &kp F3                &kp F4     &kp F5     &kp F11    &none   &kp RIGHT_BRACE  &kp RIGHT_PARENTHESIS  &kp RIGHT_BRACKET  &kp GREATER_THAN  &kp SEMICOLON
+&trans      &trans         &trans                &kp LSHFT  &kp RC(K)  &trans     &trans  &trans                                                                       &kp RG(RC(Q))
             >;
 
             sensor-bindings = <&scroll_up_down>;
@@ -131,10 +131,10 @@
 
         MOUSE {
             bindings = <
-&trans          &trans    &trans    &trans    &trans                    &kp LG(LEFT_ARROW)  &trans          &trans        &kp RG(RIGHT_ARROW)  &trans
-&kp LEFT_SHIFT  &mkp MB3  &mkp MB2  &mkp MB1  &trans            &trans  &kp LEFT_ARROW      &kp DOWN_ARROW  &kp UP_ARROW  &kp RIGHT_ARROW      &trans
-&trans          &trans    &trans    &trans    &trans  &trans    &trans  &trans              &trans          &trans        &trans               &trans
-&trans          &trans    &trans    &trans    &trans  &trans    &trans  &kp RCTRL                                                              &trans
+&kp LA(LG(I))   &kp LG(T)  &kp LG(X)  &kp LG(C)  &kp LG(V)                    &kp LG(LEFT_ARROW)  &trans          &trans        &kp RG(RIGHT_ARROW)  &trans
+&kp LEFT_SHIFT  &mkp MB3   &mkp MB2   &mkp MB1   &trans               &trans  &kp LEFT_ARROW      &kp DOWN_ARROW  &kp UP_ARROW  &kp RIGHT_ARROW      &trans
+&trans          &trans     &trans     &trans     &trans     &trans    &trans  &trans              &trans          &trans        &trans               &trans
+&trans          &trans     &trans     &trans     &trans     &trans    &trans  &kp RCTRL                                                              &trans
             >;
 
             sensor-bindings = <&scroll_up_down>;
