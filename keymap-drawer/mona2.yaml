@@ -146,18 +146,11 @@ layers:
   - {type: held}
   - ''
   - {t: ▽, type: trans}
-  - Ctl+LEFT
-  - Ctl+Sft+F
+  - LEFT
+  - Sft+F
   - ''
-  - Ctl+RIGHT
+  - RIGHT
   - ''
-  - {t: ▽, type: trans}
-  - ''
-  - ''
-  - ''
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - ''
   - ''
@@ -166,7 +159,14 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - LEFT SHIFT
+  - ''
+  - ''
+  - ''
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - LEFT CONTROL
   - ''
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
