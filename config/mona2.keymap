@@ -77,7 +77,7 @@
         default_layer {
             bindings = <
 &kp Q  &kp W  &kp E  &kp R                  &kp T                                             &kp Y        &kp U                &mt RIGHT_ALT I  &kp O    &kp P
-&kp A  &kp S  &kp D  &lt 3 F                &kp G                            &lt 4 F11        &kp H        &mt RIGHT_COMMAND J  &mt RCTRL K      &kp L    &kp MINUS
+&kp A  &kp S  &kp D  &lt 3 F                &kp G                            &lt 4 F7         &kp H        &mt RIGHT_COMMAND J  &mt RCTRL K      &kp L    &kp MINUS
 &kp Z  &kp X  &kp C  &kp V                  &kp B        &kp RG(NUMBER_0)    &lt 6 F12        &kp N        &kp M                &kp COMMA        &kp DOT  &kp TILDE
 &none  &none  &none  &mt LEFT_SHIFT ESCAPE  &lt 5 SPACE  &kp LC(SPACE)       &lt 1 BACKSPACE  &lt 2 ENTER                                                 &none
             >;
@@ -142,10 +142,10 @@
 
         SCROLL {
             bindings = <
-&trans  &trans          &trans  &trans           &trans                           &trans  &trans  &trans  &trans  &trans
-&trans  &kp LEFT_ARROW  &kp F   &kp RIGHT_ARROW  &trans                   &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans          &trans  &trans           &trans         &trans    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans          &trans  &trans           &kp LC(GLOBE)  &trans    &trans  &trans                          &trans
+&trans  &trans          &trans  &trans           &trans                          &trans  &trans  &trans  &trans  &trans
+&trans  &kp LEFT_ARROW  &kp F   &kp RIGHT_ARROW  &trans                  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans          &trans  &trans           &trans        &trans    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans          &trans  &trans           &kp LC(CAPS)  &trans    &trans  &trans                          &trans
             >;
 
             sensor-bindings = <&scroll_up_down>;
