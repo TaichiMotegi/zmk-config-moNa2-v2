@@ -143,7 +143,7 @@ layers:
   - {t: ▽, type: trans}
   - ''
   - LEFT CONTROL
-  - {t: CAPSLOCK, type: held}
+  - {type: held}
   - ''
   - {t: ▽, type: trans}
   - LEFT
@@ -167,7 +167,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - Ctl+CAPSLOCK
+  - CAPSLOCK
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
