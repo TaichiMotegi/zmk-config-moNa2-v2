@@ -13,10 +13,10 @@ layers:
   - P
   - A
   - S
-  - D
-  - {t: F, h: '3'}
+  - {t: D, h: window}
+  - {t: F, h: scroll}
   - G
-  - {t: F7, h: '4'}
+  - {t: F7, h: bt}
   - H
   - {t: J, h: RIGHT COMMAND}
   - {t: K, h: RCTRL}
@@ -40,10 +40,10 @@ layers:
   - {t: ESCAPE, h: LEFT SHIFT}
   - {t: SPACE, h: '5'}
   - Ctl+SPACE
-  - {t: BACKSPACE, h: '1'}
-  - {t: ENTER, h: '2'}
+  - {t: BACKSPACE, h: num}
+  - {t: ENTER, h: symbol}
   - ''
-  '1':
+  num:
   - ''
   - '%'
   - /
@@ -86,7 +86,7 @@ layers:
   - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  '2':
+  symbol:
   - ''
   - ''
   - \
@@ -129,7 +129,7 @@ layers:
   - {t: ▽, type: trans}
   - {type: held}
   - Gui+Ctl+Q
-  '3':
+  scroll:
   - {t: ▽, type: trans}
   - ''
   - ''
@@ -146,18 +146,11 @@ layers:
   - {type: held}
   - ''
   - {t: ▽, type: trans}
-  - LEFT
-  - Sft+F
-  - ''
-  - RIGHT
-  - ''
-  - {t: ▽, type: trans}
   - ''
   - ''
   - ''
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - ''
+  - ''
   - {t: ▽, type: trans}
   - ''
   - ''
@@ -166,13 +159,20 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - LEFT CONTROL
+  - ''
+  - ''
   - ''
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  '4':
+  - ''
+  - ''
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  bt:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -258,7 +258,7 @@ layers:
   - {t: ▽, type: trans}
   - RCTRL
   - {t: ▽, type: trans}
-  '6':
+  window:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -270,9 +270,15 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - LEFT ARROW
-  - F
-  - RIGHT ARROW
+  - ''
+  - {type: held}
+  - ''
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - Ctl+LEFT ARROW
+  - Sft+Ctl+F
+  - {t: ▽, type: trans}
+  - Ctl+RIGHT ARROW
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -290,19 +296,13 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - Ctl+CAPS
+  - LEFT SHIFT
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
 combos:
 - p: [39, 38]
-  k: {t: ESC, h: '4'}
+  k: {t: ESC, h: bt}
 - p: [11, 12]
   k: TAB
