@@ -109,10 +109,10 @@
 
         layer_3 {
             bindings = <
-&trans  &none   &none   &none   &trans                              &trans          &none  &none  &none            &trans
-&trans  &none   &none   &none   &none                       &trans  &kp LEFT_ARROW  &kp F  &none  &kp RIGHT_ARROW  &none
-&trans  &none   &none   &none   &trans            &trans    &trans  &trans          &none  &none  &none            &trans
-&trans  &trans  &trans  &trans  &kp LC(CAPSLOCK)  &trans    &trans  &trans                                         &trans
+&trans  &none   &none   &none   &trans                          &trans              &none      &none  &none                &trans
+&trans  &none   &none   &none   &none                   &trans  &kp LC(LEFT_ARROW)  &kp LC(F)  &none  &kp RC(RIGHT_ARROW)  &none
+&trans  &none   &none   &none   &trans        &trans    &trans  &trans              &none      &none  &none                &trans
+&trans  &trans  &trans  &trans  &kp CAPSLOCK  &trans    &trans  &trans                                                     &trans
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_DN C_VOL_UP>;
