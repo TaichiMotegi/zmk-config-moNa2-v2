@@ -142,22 +142,15 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - ''
-  - ''
-  - {type: held}
-  - ''
-  - {t: ▽, type: trans}
-  - Ctl+LEFT ARROW
-  - Ctl+F
-  - ''
-  - Ctl+RIGHT ARROW
+  - LEFT CONTROL
+  - {t: CAPSLOCK, type: held}
   - ''
   - {t: ▽, type: trans}
+  - LEFT
+  - F
   - ''
+  - RIGHT
   - ''
-  - ''
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - ''
   - ''
@@ -166,8 +159,15 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  - ''
+  - ''
+  - ''
   - {t: ▽, type: trans}
-  - CAPSLOCK
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - Ctl+CAPSLOCK
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
