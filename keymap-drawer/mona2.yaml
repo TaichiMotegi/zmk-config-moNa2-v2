@@ -28,7 +28,7 @@ layers:
   - V
   - B
   - Gui+0
-  - {t: F12, h: '6'}
+  - F12
   - N
   - M
   - ','
@@ -131,43 +131,43 @@ layers:
   - Gui+Ctl+Q
   '3':
   - {t: ▽, type: trans}
-  - Ctl+Sft+TAB
-  - PRINTSCREEN
-  - Ctl+TAB
+  - ''
+  - ''
+  - ''
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - HOME
-  - UP ARROW
-  - END
+  - ''
+  - ''
+  - ''
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - Gui+LEFT ARROW
-  - Gui+RIGHT ARROW
-  - {t: Ctl+Gui+LEFT ARROW, type: held}
-  - Ctl+Gui+RIGHT ARROW
-  - {t: ▽, type: trans}
+  - ''
+  - ''
+  - {type: held}
+  - ''
   - {t: ▽, type: trans}
   - LEFT ARROW
-  - DOWN ARROW
+  - F
+  - ''
   - RIGHT ARROW
-  - F10
+  - ''
   - {t: ▽, type: trans}
-  - LEFT SHIFT
-  - Gui+Sft+LEFT ARROW
-  - Gui+Sft+RIGHT ARROW
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - DELETE
-  - PAGE UP
-  - PAGE DOWN
+  - ''
+  - ''
+  - ''
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  - ''
+  - ''
+  - ''
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - Ctl+CAPSLOCK
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -222,8 +222,8 @@ layers:
   - Gui+C
   - Gui+V
   - Gui+LEFT ARROW
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - Gui+Sft+4
+  - Sft+Gui+5
   - Gui+RIGHT ARROW
   - {t: ▽, type: trans}
   - LEFT SHIFT
@@ -286,7 +286,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {type: held}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
