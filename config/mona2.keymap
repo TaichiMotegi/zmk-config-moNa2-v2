@@ -78,7 +78,7 @@
             bindings = <
 &kp Q  &kp W  &kp E  &kp R                  &kp T                                             &kp Y        &kp U                &mt RIGHT_ALT I  &kp O    &kp P
 &kp A  &kp S  &kp D  &lt 3 F                &kp G                            &lt 4 F7         &kp H        &mt RIGHT_COMMAND J  &mt RCTRL K      &kp L    &kp MINUS
-&kp Z  &kp X  &kp C  &kp V                  &kp B        &kp RG(NUMBER_0)    &lt 6 F12        &kp N        &kp M                &kp COMMA        &kp DOT  &kp TILDE
+&kp Z  &kp X  &kp C  &kp V                  &kp B        &kp RG(NUMBER_0)    &kp F12          &kp N        &kp M                &kp COMMA        &kp DOT  &kp TILDE
 &none  &none  &none  &mt LEFT_SHIFT ESCAPE  &lt 5 SPACE  &kp LC(SPACE)       &lt 1 BACKSPACE  &lt 2 ENTER                                                 &none
             >;
 
@@ -109,10 +109,10 @@
 
         layer_3 {
             bindings = <
-&trans  &kp LC(LS(TAB))     &kp PRINTSCREEN         &kp LC(TAB)              &trans                                     &trans  &kp HOME        &kp UP_ARROW    &kp END          &trans
-&trans  &kp LG(LEFT_ARROW)  &kp LG(RIGHT_ARROW)     &kp LC(LG(LEFT_ARROW))   &kp LC(LG(RIGHT_ARROW))            &trans  &trans  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp F10
-&trans  &kp LEFT_SHIFT      &kp LG(LS(LEFT_ARROW))  &kp LG(LS(RIGHT_ARROW))  &trans                   &trans    &trans  &trans  &kp DELETE      &kp PAGE_UP     &kp PAGE_DOWN    &trans
-&trans  &trans              &trans                  &trans                   &trans                   &trans    &trans  &trans                                                   &trans
+&trans  &none   &none   &none   &trans                              &trans          &none  &none  &none            &trans
+&trans  &none   &none   &none   &none                       &trans  &kp LEFT_ARROW  &kp F  &none  &kp RIGHT_ARROW  &none
+&trans  &none   &none   &none   &trans            &trans    &trans  &trans          &none  &none  &none            &trans
+&trans  &trans  &trans  &trans  &kp LC(CAPSLOCK)  &trans    &trans  &trans                                         &trans
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_DN C_VOL_UP>;
@@ -131,10 +131,10 @@
 
         MOUSE {
             bindings = <
-&kp LA(LG(I))   &kp LG(T)  &kp LG(X)  &kp LG(C)  &kp LG(V)                      &kp LG(LEFT_ARROW)  &trans          &trans        &kp RG(RIGHT_ARROW)  &trans
-&kp LEFT_SHIFT  &mkp MB3   &mkp MB2   &mkp MB1   &kp LC(TAB)            &none   &kp LEFT_ARROW      &kp DOWN_ARROW  &kp UP_ARROW  &kp RIGHT_ARROW      &trans
-&none           &trans     &trans     &trans     &trans       &trans    &trans  &trans              &trans          &trans        &trans               &trans
-&trans          &trans     &trans     &trans     &trans       &trans    &trans  &kp RCTRL                                                              &trans
+&kp LA(LG(I))   &kp LG(T)  &kp LG(X)  &kp LG(C)  &kp LG(V)                      &kp LG(LEFT_ARROW)  &kp LG(LS(NUMBER_4))  &kp LS(LG(NUMBER_5))  &kp RG(RIGHT_ARROW)  &trans
+&kp LEFT_SHIFT  &mkp MB3   &mkp MB2   &mkp MB1   &kp LC(TAB)            &none   &kp LEFT_ARROW      &kp DOWN_ARROW        &kp UP_ARROW          &kp RIGHT_ARROW      &trans
+&none           &trans     &trans     &trans     &trans       &trans    &trans  &trans              &trans                &trans                &trans               &trans
+&trans          &trans     &trans     &trans     &trans       &trans    &trans  &kp RCTRL                                                                            &trans
             >;
 
             sensor-bindings = <&scroll_up_down>;
