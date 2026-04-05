@@ -147,7 +147,7 @@ layers:
   - ''
   - {t: ▽, type: trans}
   - Ctl+Alt+LEFT ARROW
-  - Ctl+Alt+F
+  - Ctl+Alt+ENTER
   - ''
   - Ctl+Alt+RIGHT ARROW
   - ''
