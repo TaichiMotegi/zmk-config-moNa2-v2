@@ -109,10 +109,10 @@
 
         scroll {
             bindings = <
-&trans  &none   &none   &none  &trans                    &trans                  &none          &none  &none                    &none
-&trans  &none   &none   &none  &none             &trans  &kp LC(LA(LEFT_ARROW))  &kp LC(LA(F))  &none  &kp LC(LA(RIGHT_ARROW))  &none
-&trans  &none   &none   &none  &trans  &trans    &trans  &trans                  &none          &none  &none                    &none
-&trans  &trans  &trans  &none  &none   &trans    &trans  &trans                                                                 &trans
+&trans  &none   &none   &none  &trans                    &trans                  &none              &none  &none                    &none
+&trans  &none   &none   &none  &none             &trans  &kp LC(LA(LEFT_ARROW))  &kp LC(LA(ENTER))  &none  &kp LC(LA(RIGHT_ARROW))  &none
+&trans  &none   &none   &none  &trans  &trans    &trans  &trans                  &none              &none  &none                    &none
+&trans  &trans  &trans  &none  &none   &trans    &trans  &trans                                                                     &trans
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_DN C_VOL_UP>;
