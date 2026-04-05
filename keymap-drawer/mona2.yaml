@@ -138,11 +138,11 @@ layers:
   - {t: ▽, type: trans}
   - ''
   - ''
-  - ''
+  - Ctl+LEFT
+  - Ctl+RIGHT
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - ''
-  - ''
+  - Ctl+CAPSLOCK
+  - Ctl+GLOBE
   - {type: held}
   - ''
   - {t: ▽, type: trans}
@@ -159,10 +159,10 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - ''
-  - ''
-  - ''
-  - {t: ▽, type: trans}
+  - GLOBE
+  - LEFT CONTROL
+  - LEFT
+  - RIGHT ARROW
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
