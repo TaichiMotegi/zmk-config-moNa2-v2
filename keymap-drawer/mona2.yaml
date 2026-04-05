@@ -13,7 +13,7 @@ layers:
   - P
   - A
   - S
-  - {t: D, h: window}
+  - D
   - {t: F, h: scroll}
   - G
   - {t: F7, h: bt}
@@ -138,31 +138,31 @@ layers:
   - {t: ▽, type: trans}
   - ''
   - ''
-  - Ctl+LEFT
-  - Ctl+RIGHT
+  - ''
+  - ''
   - {t: ▽, type: trans}
-  - Ctl+CAPSLOCK
-  - Ctl+GLOBE
+  - ''
+  - ''
   - {type: held}
   - ''
   - {t: ▽, type: trans}
+  - Ctl+Alt+LEFT ARROW
+  - Ctl+Alt+F
   - ''
-  - CAPSLOCK
-  - LEFT CONTROL
-  - F
+  - Ctl+Alt+RIGHT ARROW
   - ''
+  - {t: ▽, type: trans}
+  - ''
+  - ''
+  - ''
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - ''
   - ''
   - ''
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - GLOBE
-  - LEFT CONTROL
-  - LEFT
-  - RIGHT ARROW
+  - ''
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -271,7 +271,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - ''
-  - {type: held}
+  - ''
   - ''
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
