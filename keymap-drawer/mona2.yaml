@@ -147,9 +147,9 @@ layers:
   - ''
   - {t: ▽, type: trans}
   - ''
-  - ''
-  - ''
-  - ''
+  - CAPSLOCK
+  - LEFT CONTROL
+  - F
   - ''
   - {t: ▽, type: trans}
   - ''
