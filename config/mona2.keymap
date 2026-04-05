@@ -76,10 +76,10 @@
 
         default_layer {
             bindings = <
-&kp Q  &kp W  &kp E    &kp R                  &kp T                                             &kp Y        &kp U                &mt RIGHT_ALT I  &kp O    &kp P
-&kp A  &kp S  &lt 6 D  &lt 3 F                &kp G                            &lt 4 F7         &kp H        &mt RIGHT_COMMAND J  &mt RCTRL K      &kp L    &kp MINUS
-&kp Z  &kp X  &kp C    &kp V                  &kp B        &kp RG(NUMBER_0)    &kp F12          &kp N        &kp M                &kp COMMA        &kp DOT  &kp TILDE
-&none  &none  &none    &mt LEFT_SHIFT ESCAPE  &lt 5 SPACE  &kp LC(SPACE)       &lt 1 BACKSPACE  &lt 2 ENTER                                                 &none
+&kp Q  &kp W  &kp E  &kp R                  &kp T                                             &kp Y        &kp U                &mt RIGHT_ALT I  &kp O    &kp P
+&kp A  &kp S  &kp D  &lt 3 F                &kp G                            &lt 4 F7         &kp H        &mt RIGHT_COMMAND J  &mt RCTRL K      &kp L    &kp MINUS
+&kp Z  &kp X  &kp C  &kp V                  &kp B        &kp RG(NUMBER_0)    &kp F12          &kp N        &kp M                &kp COMMA        &kp DOT  &kp TILDE
+&none  &none  &none  &mt LEFT_SHIFT ESCAPE  &lt 5 SPACE  &kp LC(SPACE)       &lt 1 BACKSPACE  &lt 2 ENTER                                                 &none
             >;
 
             sensor-bindings = <&inc_dec_kp RG(PLUS) RG(MINUS)>;
@@ -109,10 +109,10 @@
 
         scroll {
             bindings = <
-&trans  &none             &none          &none  &trans                    &trans  &none         &none             &kp LC(LEFT)  &kp LC(RIGHT)
-&trans  &kp LC(CAPSLOCK)  &kp LC(GLOBE)  &none  &none             &trans  &none   &kp CAPSLOCK  &kp LEFT_CONTROL  &kp F         &none
-&trans  &none             &none          &none  &trans  &trans    &trans  &trans  &kp GLOBE     &kp LEFT_CONTROL  &kp LEFT      &kp RIGHT_ARROW
-&trans  &trans            &trans         &none  &none   &trans    &trans  &trans                                                &trans
+&trans  &none   &none   &none  &trans                    &trans                  &none          &none  &none                    &none
+&trans  &none   &none   &none  &none             &trans  &kp LC(LA(LEFT_ARROW))  &kp LC(LA(F))  &none  &kp LC(LA(RIGHT_ARROW))  &none
+&trans  &none   &none   &none  &trans  &trans    &trans  &trans                  &none          &none  &none                    &none
+&trans  &trans  &trans  &none  &none   &trans    &trans  &trans                                                                 &trans
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_DN C_VOL_UP>;
