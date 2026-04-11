@@ -140,12 +140,12 @@
             sensor-bindings = <&scroll_up_down>;
         };
 
-        window {
+        func {
             bindings = <
-&trans      &trans  &trans  &trans  &trans                    &trans     &trans  &trans  &trans  &trans
-&kp LG(F1)  &kp F2  &none   &none   &trans            &trans  &none      &none   &trans  &none   &trans
-&trans      &trans  &trans  &trans  &trans  &trans    &trans  &trans     &trans  &trans  &trans  &trans
-&trans      &trans  &trans  &trans  &none   &trans    &trans  &kp GLOBE                          &trans
+&trans  &trans         &trans                &trans        &trans                          &trans  &trans  &trans  &trans  &trans
+&none   &kp C_BRI_DEC  &kp C_BRIGHTNESS_INC  &kp C_VOL_DN  &kp C_VOL_UP            &trans  &none   &none   &trans  &none   &trans
+&trans  &trans         &trans                &trans        &trans        &trans    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans         &trans                &trans        &none         &trans    &trans  &none                           &trans
             >;
 
             sensor-bindings = <&scroll_up_down>;
