@@ -269,7 +269,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - ''
+  - VOICE COMMAND
   - BRI DEC
   - BRIGHTNESS INC
   - VOL DN
