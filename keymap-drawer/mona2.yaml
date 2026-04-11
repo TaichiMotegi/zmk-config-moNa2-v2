@@ -136,7 +136,7 @@ layers:
   - ''
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - Gui+Ctl+M
+  - Gui+M
   - ''
   - ''
   - ''
