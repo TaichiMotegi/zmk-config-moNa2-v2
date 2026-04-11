@@ -17,7 +17,7 @@ layers:
   - {t: F, h: scroll}
   - G
   - {t: TAB, h: bt}
-  - {t: H, h: window}
+  - {t: H, h: func}
   - {t: J, h: RIGHT COMMAND}
   - {t: K, h: RCTRL}
   - L
@@ -258,7 +258,7 @@ layers:
   - {t: ▽, type: trans}
   - RCTRL
   - {t: ▽, type: trans}
-  window:
+  func:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -269,11 +269,11 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - Gui+F1
-  - F2
   - ''
-  - ''
-  - {t: ▽, type: trans}
+  - BRI DEC
+  - BRIGHTNESS INC
+  - VOL DN
+  - VOL UP
   - {t: ▽, type: trans}
   - {type: held}
   - ''
@@ -299,7 +299,7 @@ layers:
   - ''
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - GLOBE
+  - ''
   - {t: ▽, type: trans}
 combos:
 - p: [39, 38]
