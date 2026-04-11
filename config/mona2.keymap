@@ -142,10 +142,10 @@
 
         func {
             bindings = <
-&trans               &trans         &trans                &trans        &trans                          &trans  &trans  &trans  &trans  &trans
-&kp C_VOICE_COMMAND  &kp C_BRI_DEC  &kp C_BRIGHTNESS_INC  &kp C_VOL_DN  &kp C_VOL_UP            &trans  &none   &none   &trans  &none   &trans
-&trans               &trans         &trans                &trans        &trans        &trans    &trans  &trans  &trans  &trans  &trans  &trans
-&trans               &trans         &trans                &trans        &none         &trans    &trans  &none                           &trans
+&trans               &trans         &trans                &kp C_VOICE_COMMAND  &trans                          &trans  &trans  &trans  &trans  &trans
+&kp C_VOICE_COMMAND  &kp C_BRI_DEC  &kp C_BRIGHTNESS_INC  &kp C_VOL_DN         &kp C_VOL_UP            &trans  &none   &none   &trans  &none   &trans
+&trans               &trans         &trans                &trans               &trans        &trans    &trans  &trans  &trans  &trans  &trans  &trans
+&trans               &trans         &trans                &trans               &none         &trans    &trans  &none                           &trans
             >;
 
             sensor-bindings = <&scroll_up_down>;
