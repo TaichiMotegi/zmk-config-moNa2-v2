@@ -98,10 +98,10 @@
 
         symbol {
             bindings = <
-&none       &none          &kp BACKSLASH  &kp PIPE   &none                         &kp GRAVE        &kp SINGLE_QUOTE       &kp DOUBLE_QUOTES  &kp UNDERSCORE    &none
-&kp DOLLAR  &kp AMPERSAND  &kp AT_SIGN    &kp HASH   &kp CARET             &trans  &kp LEFT_BRACE   &kp LEFT_PARENTHESIS   &kp LEFT_BRACKET   &kp LESS_THAN     &kp COLON
-&kp F1      &kp F2         &kp F3         &kp F4     &kp F5     &kp F11    &none   &kp RIGHT_BRACE  &kp RIGHT_PARENTHESIS  &kp RIGHT_BRACKET  &kp GREATER_THAN  &kp SEMICOLON
-&trans      &trans         &trans         &kp LSHFT  &kp RC(K)  &trans     &trans  &trans                                                                       &kp RG(RC(Q))
+&none       &none          &kp BACKSLASH  &kp PIPE   &none                        &kp GRAVE        &kp SINGLE_QUOTE       &kp DOUBLE_QUOTES  &kp UNDERSCORE    &none
+&kp DOLLAR  &kp AMPERSAND  &kp AT_SIGN    &kp HASH   &kp CARET            &trans  &kp LEFT_BRACE   &kp LEFT_PARENTHESIS   &kp LEFT_BRACKET   &kp LESS_THAN     &kp COLON
+&none       &none          &none          &none      &none      &none     &none   &kp RIGHT_BRACE  &kp RIGHT_PARENTHESIS  &kp RIGHT_BRACKET  &kp GREATER_THAN  &kp SEMICOLON
+&trans      &trans         &trans         &kp LSHFT  &kp RC(K)  &trans    &trans  &trans                                                                       &kp RG(RC(Q))
             >;
 
             sensor-bindings = <&scroll_up_down>;
