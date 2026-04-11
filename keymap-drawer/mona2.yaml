@@ -136,7 +136,7 @@ layers:
   - ''
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - ''
+  - Gui+Ctl+M
   - ''
   - ''
   - ''
@@ -148,7 +148,7 @@ layers:
   - {t: ▽, type: trans}
   - Ctl+Alt+LEFT ARROW
   - Ctl+Alt+ENTER
-  - ''
+  - Ctl+Gui+F
   - Ctl+Alt+RIGHT ARROW
   - ''
   - {t: ▽, type: trans}
