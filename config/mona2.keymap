@@ -77,7 +77,7 @@
         default_layer {
             bindings = <
 &kp Q  &kp W  &kp E         &kp R                  &kp T                                             &kp Y        &kp U                &mt RIGHT_ALT I  &kp O    &kp P
-&kp A  &kp S  &kp D         &lt 3 F                &kp G                            &lt 4 EQUAL      &lt 6 H      &mt RIGHT_COMMAND J  &mt RCTRL K      &kp L    &kp MINUS
+&kp A  &kp S  &kp D         &lt 3 F                &kp G                            &mo 4            &lt 6 H      &mt RIGHT_COMMAND J  &mt RCTRL K      &kp L    &kp MINUS
 &kp Z  &kp X  &kp C         &kp V                  &kp B        &kp RG(NUMBER_0)    &kp DELETE       &kp N        &kp M                &kp COMMA        &kp DOT  &kp TILDE
 &none  &none  &kp LEFT_GUI  &mt LEFT_SHIFT ESCAPE  &lt 5 SPACE  &kp LC(SPACE)       &lt 1 BACKSPACE  &lt 2 ENTER                                                 &none
             >;
@@ -99,7 +99,7 @@
         symbol {
             bindings = <
 &none       &none          &kp BACKSLASH  &kp PIPE   &none                        &kp GRAVE  &kp SINGLE_QUOTE      &kp SEMICOLON          &kp UNDERSCORE  &none
-&kp DOLLAR  &kp AMPERSAND  &kp AT_SIGN    &kp HASH   &kp CARET            &trans  &none      &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp LESS_THAN   &kp GREATER_THAN
+&kp DOLLAR  &kp AMPERSAND  &kp AT_SIGN    &kp HASH   &kp CARET            &trans  &kp EQUAL  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp LESS_THAN   &kp GREATER_THAN
 &none       &none          &none          &none      &none      &none     &none   &none      &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &none           &none
 &trans      &trans         &trans         &kp LSHFT  &kp RC(K)  &trans    &trans  &trans                                                                  &kp RG(RC(Q))
             >;
