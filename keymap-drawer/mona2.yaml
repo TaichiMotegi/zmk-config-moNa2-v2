@@ -16,7 +16,7 @@ layers:
   - D
   - {t: F, h: scroll}
   - G
-  - {t: TAB, h: bt}
+  - {t: '=', h: bt}
   - {t: H, h: func}
   - {t: J, h: RIGHT COMMAND}
   - {t: K, h: RCTRL}
@@ -36,7 +36,7 @@ layers:
   - '~'
   - ''
   - ''
-  - ''
+  - LEFT GUI
   - {t: ESCAPE, h: LEFT SHIFT}
   - {t: SPACE, h: '5'}
   - Ctl+SPACE
@@ -94,7 +94,7 @@ layers:
   - ''
   - '`'
   - ''''
-  - '"'
+  - ;
   - _
   - ''
   - $
@@ -103,23 +103,23 @@ layers:
   - '#'
   - ^
   - {t: ▽, type: trans}
-  - '{'
+  - ''
   - (
-  - '['
-  - <
-  - ':'
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - '}'
   - )
-  - ']'
+  - <
   - '>'
-  - ;
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - '['
+  - ']'
+  - ''
+  - ''
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
