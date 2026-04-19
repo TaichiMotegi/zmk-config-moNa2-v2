@@ -16,7 +16,7 @@ layers:
   - D
   - {t: F, h: scroll}
   - G
-  - {t: '=', h: bt}
+  - bt
   - {t: H, h: func}
   - {t: J, h: RIGHT COMMAND}
   - {t: K, h: RCTRL}
@@ -103,7 +103,7 @@ layers:
   - '#'
   - ^
   - {t: ▽, type: trans}
-  - ''
+  - '='
   - (
   - )
   - <
