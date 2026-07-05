@@ -78,7 +78,7 @@
             bindings = <
 &kp Q  &kp W  &kp E         &kp R                  &kp T                                                &kp Y        &kp U                &mt RIGHT_ALT I  &kp O    &kp P
 &kp A  &kp S  &kp D         &lt 3 F                &kp G                               &mo 4            &lt 6 H      &mt RIGHT_COMMAND J  &mt RCTRL K      &kp L    &kp MINUS
-&kp Z  &kp X  &kp C         &kp V                  &kp B        &kp RG(NUMBER_0)       &kp DELETE       &kp N        &kp M                &kp COMMA        &kp DOT  &kp TILDE
+&kp Z  &kp X  &kp C         &kp V                  &kp B        &kp RG(NUMBER_0)       &kp DELETE       &kp N        &lt 6 M              &kp COMMA        &kp DOT  &kp TILDE
 &none  &none  &kp LEFT_GUI  &mt LEFT_SHIFT ESCAPE  &lt 5 SPACE  &mt RCTRL LC(SPACE)    &lt 1 BACKSPACE  &lt 2 ENTER                                                 &none
             >;
 
@@ -142,10 +142,10 @@
 
         func {
             bindings = <
-&trans               &trans         &trans                &kp C_MUTE    &trans                          &trans  &trans  &trans  &trans  &trans
-&kp C_VOICE_COMMAND  &kp C_BRI_DEC  &kp C_BRIGHTNESS_INC  &kp C_VOL_DN  &kp C_VOL_UP            &trans  &none   &none   &trans  &none   &trans
-&trans               &trans         &trans                &trans        &trans        &trans    &trans  &trans  &trans  &trans  &trans  &trans
-&trans               &trans         &trans                &trans        &none         &trans    &trans  &none                           &trans
+&trans               &trans         &trans                &kp C_MUTE    &trans                            &trans    &trans  &trans  &trans  &trans
+&kp C_VOICE_COMMAND  &kp C_BRI_DEC  &kp C_BRIGHTNESS_INC  &kp C_VOL_DN  &kp C_VOL_UP            &trans    &none     &none   &trans  &none   &trans
+&trans               &trans         &trans                &trans        &trans        &trans    &trans    &trans    &trans  &trans  &trans  &trans
+&trans               &trans         &trans                &trans        &none         &trans    &mkp MB2  &mkp MB1                          &trans
             >;
 
             sensor-bindings = <&scroll_up_down>;
