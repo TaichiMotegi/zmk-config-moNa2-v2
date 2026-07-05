@@ -12,8 +12,8 @@ layers:
   - O
   - P
   - A
-  - {t: RCTRL, h: S}
-  - {t: Ctl+LEFT ALT, h: D}
+  - {t: S, h: RCTRL}
+  - {t: D, h: LEFT ALT}
   - {t: F, h: scroll}
   - G
   - bt
@@ -103,7 +103,7 @@ layers:
   - '#'
   - ^
   - {t: ▽, type: trans}
-  - ':'
+  - {t: ':', h: RIGHT SHIFT}
   - (
   - '{'
   - '['
@@ -124,7 +124,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - LSHFT
-  - Ctl+K
+  - TAB
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {type: held}
@@ -227,10 +227,10 @@ layers:
   - Gui+RIGHT ARROW
   - {t: ▽, type: trans}
   - LEFT SHIFT
-  - '&mkp MB3'
+  - '&mkp MB4'
   - '&mkp MB2'
   - '&mkp MB1'
-  - TAB
+  - '&mkp MB5'
   - ''
   - LEFT ARROW
   - DOWN ARROW
@@ -256,7 +256,7 @@ layers:
   - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - RCTRL
+  - ''
   - {t: ▽, type: trans}
   func:
   - {t: ▽, type: trans}
