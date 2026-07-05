@@ -30,7 +30,7 @@ layers:
   - Gui+0
   - DELETE
   - N
-  - M
+  - {t: M, h: func}
   - ','
   - .
   - '~'
@@ -298,8 +298,8 @@ layers:
   - {t: ▽, type: trans}
   - ''
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - ''
+  - '&mkp MB2'
+  - '&mkp MB1'
   - {t: ▽, type: trans}
 combos:
 - p: [39, 38]
