@@ -76,10 +76,10 @@
 
         default_layer {
             bindings = <
-&kp Q  &kp W  &kp E         &kp R                  &kp T                                                &kp Y        &kp U                &mt RIGHT_ALT I  &kp O    &kp P
-&kp A  &kp S  &kp D         &lt 3 F                &kp G                               &mo 4            &lt 6 H      &mt RIGHT_COMMAND J  &mt RCTRL K      &kp L    &kp MINUS
-&kp Z  &kp X  &kp C         &kp V                  &kp B        &kp RG(NUMBER_0)       &kp DELETE       &kp N        &lt 6 M              &kp COMMA        &kp DOT  &kp TILDE
-&none  &none  &kp LEFT_GUI  &mt LEFT_SHIFT ESCAPE  &lt 5 SPACE  &mt RCTRL LC(SPACE)    &lt 1 BACKSPACE  &lt 2 ENTER                                                 &none
+&kp Q  &kp W        &kp E               &kp R                  &kp T                                                &kp Y        &kp U                &mt RIGHT_ALT I  &kp O    &kp P
+&kp A  &mt S RCTRL  &mt D LC(LEFT_ALT)  &lt 3 F                &kp G                               &mo 4            &lt 6 H      &mt RIGHT_COMMAND J  &mt RCTRL K      &kp L    &kp MINUS
+&kp Z  &kp X        &kp C               &kp V                  &kp B        &kp RG(NUMBER_0)       &kp DELETE       &kp N        &lt 3 M              &kp COMMA        &kp DOT  &kp TILDE
+&none  &none        &kp LEFT_GUI        &mt LEFT_SHIFT ESCAPE  &lt 5 SPACE  &mt RCTRL LC(SPACE)    &lt 1 BACKSPACE  &lt 2 ENTER                                                 &none
             >;
 
             sensor-bindings = <&inc_dec_kp RG(PLUS) RG(MINUS)>;
@@ -109,10 +109,10 @@
 
         scroll {
             bindings = <
-&trans  &none   &none   &none  &trans                    &trans                  &kp LG(M)          &none          &none                    &none
-&trans  &none   &none   &none  &none             &trans  &kp LC(LA(LEFT_ARROW))  &kp LC(LA(ENTER))  &kp LC(LG(F))  &kp LC(LA(RIGHT_ARROW))  &none
-&trans  &none   &none   &none  &trans  &trans    &trans  &trans                  &none              &none          &none                    &none
-&trans  &trans  &trans  &none  &none   &trans    &trans  &trans                                                                             &trans
+&trans  &none   &none   &none  &trans                      &trans                  &kp LG(M)          &none          &none                    &none
+&trans  &none   &none   &none  &none             &trans    &kp LC(LA(LEFT_ARROW))  &kp LC(LA(ENTER))  &kp LC(LG(F))  &kp LC(LA(RIGHT_ARROW))  &none
+&trans  &none   &none   &none  &trans  &trans    &trans    &trans                  &none              &none          &none                    &none
+&trans  &trans  &trans  &none  &none   &trans    &mkp MB2  &mkp MB1                                                                           &trans
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_DN C_VOL_UP>;
@@ -142,10 +142,10 @@
 
         func {
             bindings = <
-&trans               &trans         &trans                &kp C_MUTE    &trans                            &trans    &trans  &trans  &trans  &trans
-&kp C_VOICE_COMMAND  &kp C_BRI_DEC  &kp C_BRIGHTNESS_INC  &kp C_VOL_DN  &kp C_VOL_UP            &trans    &none     &none   &trans  &none   &trans
-&trans               &trans         &trans                &trans        &trans        &trans    &trans    &trans    &trans  &trans  &trans  &trans
-&trans               &trans         &trans                &trans        &none         &trans    &mkp MB2  &mkp MB1                          &trans
+&trans  &trans  &kp C_BRI_DEC      &kp C_BRI_UP     &trans                        &trans  &trans  &trans  &trans  &trans
+&none   &none   &kp C_VOLUME_DOWN  &kp C_VOLUME_UP  &kp K_MUTE            &trans  &none   &none   &trans  &none   &trans
+&trans  &trans  &trans             &trans           &trans      &trans    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans             &trans           &none       &trans    &none   &none                           &trans
             >;
 
             sensor-bindings = <&scroll_up_down>;
