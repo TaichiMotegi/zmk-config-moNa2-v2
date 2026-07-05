@@ -160,8 +160,8 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - ''
-  - ''
-  - ''
+  - '&mkp MB4'
+  - '&mkp MB5'
   - ''
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -256,7 +256,7 @@ layers:
   - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - ''
+  - RCTRL
   - {t: ▽, type: trans}
   func:
   - {t: ▽, type: trans}
