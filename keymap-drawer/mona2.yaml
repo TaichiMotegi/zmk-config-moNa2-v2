@@ -12,8 +12,8 @@ layers:
   - O
   - P
   - A
-  - S
-  - D
+  - {t: RCTRL, h: S}
+  - {t: Ctl+LEFT ALT, h: D}
   - {t: F, h: scroll}
   - G
   - bt
@@ -30,7 +30,7 @@ layers:
   - Gui+0
   - DELETE
   - N
-  - {t: M, h: func}
+  - {t: M, h: scroll}
   - ','
   - .
   - '~'
@@ -169,8 +169,8 @@ layers:
   - ''
   - ''
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - '&mkp MB2'
+  - '&mkp MB1'
   - {t: ▽, type: trans}
   bt:
   - {t: ▽, type: trans}
@@ -261,19 +261,19 @@ layers:
   func:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - MUTE
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - VOICE COMMAND
   - BRI DEC
-  - BRIGHTNESS INC
-  - VOL DN
-  - VOL UP
+  - BRI UP
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - ''
+  - ''
+  - VOLUME DOWN
+  - VOLUME UP
+  - MUTE
   - {t: ▽, type: trans}
   - {type: held}
   - ''
@@ -298,8 +298,8 @@ layers:
   - {t: ▽, type: trans}
   - ''
   - {t: ▽, type: trans}
-  - '&mkp MB2'
-  - '&mkp MB1'
+  - ''
+  - ''
   - {t: ▽, type: trans}
 combos:
 - p: [39, 38]
