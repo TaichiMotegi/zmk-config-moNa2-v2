@@ -8,19 +8,19 @@ layers:
   - T
   - Y
   - U
-  - {t: I, h: RIGHT ALT}
+  - I
   - O
   - P
   - A
-  - {t: S, h: RCTRL}
-  - {t: D, h: LEFT ALT}
+  - S
+  - D
   - {t: F, h: scroll}
   - G
   - bt
   - {t: H, h: func}
-  - {t: J, h: RIGHT COMMAND}
-  - {t: K, h: RCTRL}
-  - L
+  - {t: J, h: LEFT COMMAND}
+  - {t: K, h: LCTRL}
+  - {t: L, h: RIGHT ALT}
   - '-'
   - Z
   - X
@@ -80,8 +80,8 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  - ''
   - +
-  - {t: ▽, type: trans}
   - '='
   - {type: held}
   - {t: ▽, type: trans}
@@ -103,7 +103,7 @@ layers:
   - '#'
   - ^
   - {t: ▽, type: trans}
-  - {t: ':', h: RIGHT SHIFT}
+  - ':'
   - (
   - '{'
   - '['
@@ -227,10 +227,10 @@ layers:
   - Gui+RIGHT ARROW
   - {t: ▽, type: trans}
   - LEFT SHIFT
-  - '&mkp MB4'
+  - ''
   - '&mkp MB2'
   - '&mkp MB1'
-  - '&mkp MB5'
+  - TAB
   - ''
   - LEFT ARROW
   - DOWN ARROW
@@ -239,8 +239,8 @@ layers:
   - {t: ▽, type: trans}
   - ''
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - '&mkp MB4'
+  - '&mkp MB5'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -255,7 +255,7 @@ layers:
   - {t: ▽, type: trans}
   - {type: held}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - DELETE
   - RCTRL
   - {t: ▽, type: trans}
   func:
